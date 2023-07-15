@@ -1,0 +1,61 @@
+.portfolio {
+	width: 50%;
+	padding-top: 3%;
+  }
+  
+  .experience-card {
+	background-color: #3a404d;
+	display: flex;
+	/*padding: 1.5rem;*/
+	margin-bottom: 1.5rem;
+	border-radius: 4px;
+  }
+
+  .experience-card h3 {
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-bottom: 0.5rem;
+  }
+  
+  .experience-card p {
+	margin-bottom: 0.5rem;
+  }
+  
+  .experience-card ul {
+	list-style: disc;
+	/*margin-left: 2rem;*/
+  }
+  
+  .experience-card li {
+	margin-bottom: 0.5rem;
+  }
+  
+    
+  .image-container-experiences {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/*background-color: red;*/
+	aspect-ratio: 1 / 1;
+	width: 33%;
+	border-radius: 50%;
+  }
+
+  .info-container-experiences {
+	/*background-color: red;*/
+	width: 60%;
+	text-overflow: initial ;
+	margin-left: 5%;
+	text-align: left;
+}
+
+.circle-experiences {
+	width: 50%;
+	aspect-ratio: 1 / 1;
+	height: 50%;
+	border-radius: 50%;
+	background-image: url('./images/Profile.jpg');
+	background-repeat: no-repeat;
+    background-position: center; 
+    position: relative;
+  }
