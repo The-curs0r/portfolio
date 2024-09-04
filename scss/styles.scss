@@ -34,19 +34,19 @@
 */
 
 // Define base and accent colors
-$base-color: #3498db;
-$base-color-hover: darken($base-color, 10%);
+$base-color: #8e735b; // A warm, medium brown
+$base-color-hover: darken($base-color, 10%); // Darken for hover effect
 
 // Define background colors
-$background: #fff;
-$background-alt: #f2f2f5;
+$background: #f8f4f0; // A light beige background
+$background-alt: #e3d8ca; // A slightly darker beige for alternate backgrounds
 
 // Define border colors
-$border: #dcd9d9;
+$border: #c4a69f; // A soft, light brown border
 
 // Define text colors
-$heading: #374054;
-$text: #74808a;
+$heading: #5c4033; // A dark brown for headings
+$text: #8d6e63; // A medium brown for regular text
 
 /*
     ---------------------
